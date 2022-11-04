@@ -1,0 +1,88 @@
+/* Your Picker styles go here */
+/* CSS for the Advanced requirement */
+
+#picker {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 525px;
+    border: solid;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background-color: rgb(252, 229, 241);
+}
+
+#prev {
+    width: 75px;
+    text-align: center;
+}
+#next {
+    width: 75px;
+    text-align: center;
+}
+#display {
+    width: fit-content;
+    text-align: center;
+}
+
+#prev, #next, #display {
+    cursor: pointer;
+}
+
+.labelContainer {
+    display: grid;
+    grid-template-columns:  75px 75px 75px 75px 75px 75px 75px;
+    grid-template-rows:  75px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-top: solid;
+    border-bottom: solid;
+}
+.label {
+    cursor: default;
+}
+
+.days {
+    display: grid;
+    grid-template-columns:  75px 75px 75px 75px 75px 75px 75px;
+    grid-template-rows:  75px 75px 75px 75px 75px 75px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(252, 229, 241);
+}
+
+.prevMonth, .currMonth, .nextMonth {
+    justify-self: center;
+    cursor: pointer;
+
+}
+
+.currMonth:hover, .prevMonth:hover, .nextMonth:hover {
+    background-color: #E5FCF0;
+    line-height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#today {
+    background-color: #E5FCF0;
+    line-height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.prevMonth, .nextMonth {
+    color: rgb(194, 194, 194);
+}
+
+.currMonth {
+    color: black;
+}

@@ -1,0 +1,11 @@
+/* Your App styles go here */
+body {
+    font-size: 26px;
+    margin: 20px;
+    text-align: center;
+}
+
+#date, #set {
+    margin-top: 20px;
+    font-size: x-large;
+}
