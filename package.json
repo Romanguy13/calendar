@@ -4,6 +4,7 @@
   "description": "Simple React Calendar",
   "author": "Cody Lambert",
   "license": "UNLICENSED",
+  "homepage": "https://romanguy13.github.io/calendar/",
   "dependencies": {
     "react": "*",
     "react-dom": "*"
@@ -20,6 +21,7 @@
     "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
+    "build" : "react-scripts build",
     "lint": "eslint src/*.js"
   },
   "eslintConfig": {
